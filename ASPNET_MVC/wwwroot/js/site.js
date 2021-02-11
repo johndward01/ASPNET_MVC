@@ -2,3 +2,8 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+
+let height = window.screen.height;
+let width = window.screen.width;
+
+let h_w = 
