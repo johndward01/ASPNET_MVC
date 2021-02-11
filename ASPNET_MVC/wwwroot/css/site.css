@@ -1,9 +1,23 @@
-﻿body{
+﻿body {
     background-color: black;
     color: rgb(255,255,255);
     text-align: center;
 }
 
+footer {
+    position: fixed;
+    bottom: inherit; 
+}
+
 .navbar {
     background-color: black;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.a {
+    margin-left: 10px;
 }
