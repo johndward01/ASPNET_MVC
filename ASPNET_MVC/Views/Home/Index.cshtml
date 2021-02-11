@@ -1,8 +1,25 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASP.NET Core MVC</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container-fluid text-center bg-dark mb-2" id="home">
+        <div class="jumbotron bg-dark text-center text-primary">
+            <h1>ASP.NET Core MVC</h1>
+            <p>
+                BOOTSTRAP JUMBOTRON                
+            </p>            
+            <h2>Counter:<span id="counter">0</span></h2>
+        </div>        
+        
+    </div>
+</body>
+
+</html>
